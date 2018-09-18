@@ -21,4 +21,6 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'money', '~> 6.0'
 
   s.add_development_dependency 'rspec-rails', '~> 3.8'
+  s.add_development_dependency 'rubocop', '~> 0.59'
+  s.add_development_dependency 'rubocop-rspec', '~> 1.29'
 end

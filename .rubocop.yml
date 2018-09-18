@@ -1,0 +1,9 @@
+AllCops:
+  TargetRubyVersion: 2.3
+  TargetRailsVersion: 4.2
+Metrics/MethodLength:
+  Exclude:
+    - 'spec/**/*.rb'
+Layout/IndentationConsistency:
+  EnforcedStyle: rails
+require: rubocop-rspec
